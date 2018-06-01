@@ -1,0 +1,112 @@
+.margin-top-70{
+    margin-top: 70px;
+}
+
+.nav-header{
+    font-size: 26px !important;
+}
+.footer {
+    margin-top: 2.5rem;
+    padding: 2.5rem 0;
+    color: #999999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+#navbar_list .nav-item .link{
+    display:inline-block;
+    position:relative;
+    background-color: transparent;
+    cursor: pointer;
+    border:0;
+    padding:0;
+    font: inherit;
+    font-size: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    padding-top: 54px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+
+.form-control{
+    margin-left: 8px;
+}
+.custom-control {
+    padding-left: 0px;
+}
+.custom-control-input {
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+}
+
+.footer-text {
+    color: white;
+}
+label.error {
+    position: absolute;
+    background: #ee0101;
+    background: rgba(238, 1, 1, 0.80);
+    padding: 2px 5px;
+    top: -15px;
+    left: 15px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: normal;
+    display: inline-block;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+
+label.error:before {
+    content: "";
+    border: 4px solid transparent;
+    border-top: 4px solid #ee0101;
+    border-top: 4px solid rgba(238, 1, 1, 0.80);
+    position: absolute;
+    bottom: -8px;
+}
+
+#form_login{
+    height: 69vh;
+}
+
+#main_content{
+    min-height: 500px;
+}
+#homeMap{
+    min-height: 360px;
+}
+.hidden{
+    display: none;
+}
+#form_buildPath .list-group-item{
+    border: 0;
+}
+#form_buildPath ul{
+    text-align: center;
+}

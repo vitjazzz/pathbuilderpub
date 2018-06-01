@@ -1,0 +1,6 @@
+#form_addEvent .list-group-item{
+    border: 0;
+}
+#form_addEvent .input-group-addon{
+    margin-left: 10px;
+}

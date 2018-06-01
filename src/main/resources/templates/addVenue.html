@@ -1,0 +1,36 @@
+<div id="addVenueContainer" class="container">
+    <div class="row">
+        <div id="addVenueMap" class="col-xs-12 col-md-6">
+            <!--<img class="group list-group-image" src="http://placehold.it/400x250/000/fff">-->
+            <!--<div class="choose-location">Choose location</div>-->
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <form id="form_addVenue" novalidate="novalidate">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5 class="card-title m-0">
+                                <i class="fa fa-plus mr-1"></i>Add Venue
+                            </h5>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label for="venue_name">Name</label>
+                                <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-address-book"></i>
+                                        </span>
+                                    <input required type="text" id="venue_name" name="venue_name" class="form-control"
+                                           placeholder="Enter name"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <button in="btn-addVenue" type="submit" class="btn btn-primary">Create</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

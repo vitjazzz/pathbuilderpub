@@ -1,0 +1,60 @@
+<div id="addEventContainer" class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <form id="form_addEvent" novalidate="novalidate">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h5 class="card-title m-0">
+                                <i class="fa fa-plus mr-1"></i>Add Event
+                            </h5>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label for="event_name">Name</label>
+                                <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-address-book"></i>
+                                        </span>
+                                    <input required type="text" id="event_name" name="event_name" class="form-control"
+                                           placeholder="Enter name"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label for="event_venue">Venue Name</label>
+                                <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-address-book"></i>
+                                        </span>
+                                    <input required type="text" id="event_venue" name="event_venue" class="form-control"
+                                           placeholder="Enter venue name"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label for="event_start_date">Start Date</label>
+                                <div class='input-group date' id='startDateTimepicker'>
+                                    <input id="event_start_date" type='datetime-local' class="form-control"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="form-group">
+                                <label for="event_end_date">End Date</label>
+                                <div class='input-group date' id='endDateTimepicker'>
+                                    <input id="event_end_date" type='datetime-local' class="form-control"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <button in="btn-addEvent" type="submit" class="btn btn-primary">Create</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

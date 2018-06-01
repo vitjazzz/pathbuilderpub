@@ -1,0 +1,25 @@
+.no-events-value{
+    min-height: 69vh;
+}
+
+#venueEvents{
+    margin-top: 30px;
+}
+
+#venueEvents .card .row {
+    margin-left:0px;
+}
+
+.review-block{
+    position: relative;
+    margin-top: 20px;
+    background: #f7f7f7;
+    border: 1px solid #eee;
+    padding: 25px 15px 15px 35px;
+    min-height: 94px;
+}
+.author-name{
+    font-weight: 600;
+    font-size: 1.077em;
+    margin: 0 0 10px;
+}
